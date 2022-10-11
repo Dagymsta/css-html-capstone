@@ -1,0 +1,389 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.page-container .background-container {
+  width: 100%;
+  margin: 0px;
+  height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.page-container .background-container .navbar {
+  display: flex;
+  height: 5rem;
+  background: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+.page-container .background-container .navbar .left-column {
+  display: flex;
+}
+.page-container .background-container .navbar .left-column a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.page-container .background-container .navbar .left-column a:hover {
+  color: rgb(189, 189, 189);
+  cursor: pointer;
+}
+.page-container .background-container .navbar .right-column {
+  display: flex;
+}
+.page-container .background-container .navbar .right-column .home-page-button-wrapper {
+  padding: 15px;
+  background: none;
+}
+.page-container .background-container .navbar .right-column .home-page-button-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.page-container .background-container .navbar .right-column .blog-page-button-wrapper {
+  padding: 15px;
+  background: none;
+}
+.page-container .background-container .navbar .right-column .blog-page-button-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.page-container .background-container .navbar .right-column .contact-page-button-wrapper {
+  padding: 15px;
+  background: none;
+}
+.page-container .background-container .navbar .right-column .contact-page-button-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.page-container .background-container .navbar .right-column .more-button-wrapper {
+  padding: 15px;
+  background-color: #E91E63;
+  border-radius: 30px;
+}
+.page-container .background-container .navbar .right-column .more-button-wrapper button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.page-container .background-container .banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.page-container .background-container .banner .banner-text-wrapper {
+  margin: 40px;
+  padding-top: 100px;
+}
+.page-container .background-container .banner .banner-text-wrapper .welcome-text {
+  font-size: 4rem;
+  font-family: "Roboto", "slab";
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+.page-container .background-container .banner .banner-subtext-wrapper {
+  padding-bottom: 60px;
+}
+.page-container .background-container .banner .banner-subtext-wrapper .banner-subtext {
+  color: #FFFFFF;
+  font-size: larger;
+}
+.page-container .background-container .banner .banner-button {
+  padding: 15px 33px;
+  background-color: #E91E63;
+  border-radius: 5px;
+}
+.page-container .background-container .banner .banner-button button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.page-container .main-page-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: -80px;
+  border-radius: 7px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+.page-container .main-page-content .what-we-stand-for-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.page-container .main-page-content .what-we-stand-for-wrapper .content-header {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-stretch: extra-expanded;
+  margin-bottom: 50px;
+}
+.page-container .main-page-content .tri-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.page-container .main-page-content .tri-box-wrapper .responsive-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.page-container .main-page-content .tri-box-wrapper .responsive-wrapper .grid-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  color: #E91E63;
+}
+.page-container .main-page-content .tri-box-wrapper .responsive-wrapper .grid-icon-wrapper i {
+  font-size: 4rem;
+}
+.page-container .main-page-content .tri-box-wrapper .responsive-wrapper p {
+  color: #999999;
+}
+.page-container .main-page-content .tri-box-wrapper .quality-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.page-container .main-page-content .tri-box-wrapper .quality-wrapper .list-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  color: rgb(0, 157, 255);
+}
+.page-container .main-page-content .tri-box-wrapper .quality-wrapper .list-icon-wrapper i {
+  font-size: 4rem;
+}
+.page-container .main-page-content .tri-box-wrapper .quality-wrapper p {
+  color: #999999;
+}
+.page-container .main-page-content .tri-box-wrapper .support-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.page-container .main-page-content .tri-box-wrapper .support-wrapper .support-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  color: seagreen;
+}
+.page-container .main-page-content .tri-box-wrapper .support-wrapper .support-icon-wrapper i {
+  font-size: 4rem;
+}
+.page-container .main-page-content .tri-box-wrapper .support-wrapper p {
+  color: #999999;
+}
+.page-container .main-page-content .about-hestia-banner {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.page-container .main-page-content .about-hestia-banner .about-hestia-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  padding-left: 160px;
+}
+.page-container .main-page-content .about-hestia-banner .about-hestia-header-wrapper .about-header {
+  color: white;
+  font-size: 2.7rem;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.page-container .main-page-content .about-hestia-banner .about-hestia-header-wrapper p {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+}
+.page-container .main-page-content .about-hestia-banner .about-banner-image-wrapper {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.page-container .main-page-content .about-hestia-banner .about-banner-image-wrapper img {
+  width: 85%;
+  height: 60%;
+}
+.page-container .main-page-content .blog-banner {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.page-container .main-page-content .blog-banner .blog-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.page-container .main-page-content .blog-banner .blog-header h1 {
+  color: #3C4858;
+}
+.page-container .main-page-content .blog-banner .link-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-container .main-page-content .blog-banner .link-box-container .worth-wrapper {
+  width: 33.33%;
+}
+.page-container .main-page-content .blog-banner .link-box-container .worth-wrapper p {
+  color: #89229B;
+  font-size: 0.75rem;
+}
+.page-container .main-page-content .blog-banner .link-box-container .worth-wrapper .worth-link-wrapper a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  color: #3C4858;
+  font-weight: bolder;
+}
+.page-container .main-page-content .blog-banner .link-box-container .worth-wrapper .worth-text p {
+  color: #999999;
+  font-size: 1rem;
+}
+.page-container .main-page-content .blog-banner .link-box-container .elements-wrapper {
+  width: 33.33%;
+}
+.page-container .main-page-content .blog-banner .link-box-container .elements-wrapper p {
+  color: #00BCD4;
+  font-size: 0.75rem;
+}
+.page-container .main-page-content .blog-banner .link-box-container .elements-wrapper .elements-link-wrapper a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  color: #3C4858;
+  font-weight: bolder;
+}
+.page-container .main-page-content .blog-banner .link-box-container .elements-wrapper .elements-text-wrapper p {
+  color: #999999;
+  font-size: 1rem;
+}
+.page-container .main-page-content .blog-banner .link-box-container .elements-wrapper .elements-text-wrapper a {
+  text-decoration: none;
+  color: #3C4858;
+}
+.page-container .main-page-content .blog-banner .link-box-container .more-tags-wrapper {
+  width: 33.33%;
+  padding-left: 80px;
+}
+.page-container .main-page-content .blog-banner .link-box-container .more-tags-wrapper p {
+  color: #f44336;
+  font-size: 0.75rem;
+}
+.page-container .main-page-content .blog-banner .link-box-container .more-tags-wrapper .tags-link-wrapper a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  color: #3C4858;
+  font-weight: bolder;
+}
+.page-container .main-page-content .blog-banner .link-box-container .more-tags-wrapper .more-text-wrapper p {
+  color: #999999;
+  font-size: 1rem;
+}
+.page-container .main-page-content .in-touch-banner {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wp-themes.com/wp-content/themes/hestia/assets/img/contact.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+.page-container .main-page-content .in-touch-banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+  height: 100%;
+}
+.page-container .main-page-content .in-touch-banner .banner-content .in-touch-header h1 {
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.page-container .main-page-content .in-touch-banner .pin-icon-wrapper i {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+.page-container .main-page-content .in-touch-banner .pin-icon-wrapper p {
+  color: #FFFFFF;
+  padding-left: 30px;
+}
+
+.footer {
+  display: flex;
+  background-color: #323437;
+  height: 100px;
+  width: 99vw;
+}
+.footer .column-left {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.footer .column-left .about-page-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.footer .column-left .parent-page-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  padding-right: 220px;
+}
+.footer .column-right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: -30px;
+}
+.footer .column-right .footer-text-wrapper p {
+  color: white;
+  font-size: 1rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=index.css.map */
